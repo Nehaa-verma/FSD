@@ -65,3 +65,31 @@ function selectLanguage(clbk){
     console.log("you have "+clbk());
 }
 selectLanguage(cCompiler);
+
+let parent=document.getElementsByClassName("parent");
+console.log(parent)
+parent[0].innerHTML="<h2 style=color:red>hello js</h2>"
+
+const h1=document.createElement("h1");
+console.log(h1);
+h1.innerText="ABESEC";
+console.log(h1);
+h1.style.backgroundColor="cyan";
+h1.style.color="red";
+h1.style.padding="20px";
+h1.style.marginLeft="300px";
+parent[0].appendChild(h1);
+const img=document.createElement("img");
+img.src="abes_logo-removebg-preview.png";
+console.log(img);
+img.setAttribute("width","200");
+img.setAttribute("height","300");
+parent[0].appendChild(img);
+parent[0].removeChild(img);
+
+
+
+function getData(){
+  console.log("hii good morning");
+  parent[0].innerHTML="<h2 style=color:red>hello, event handled</h2>";
+}
