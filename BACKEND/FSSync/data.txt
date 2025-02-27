@@ -1,0 +1,1 @@
+welcome to NODE JS FS Modulehii. data is appended using file module
