@@ -26,6 +26,6 @@ const server= http.createServer(async(req,res)=>{
 
 })
 server.listen(PORT,()=>{
-    console.log("server is running on :" , PORT);
+    console.log("server is running on :"  +PORT);
     
 })
